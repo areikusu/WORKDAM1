@@ -2,7 +2,11 @@
 public class Gitanada {
 
 	public static void main(String[] args) {
-		System.out.println("HELLO WORLD");
+		int i =0;
+		do{
+			System.out.println("HELLO WORLD"+i);
+			i++;
+		}while(i<10);
 		// TODO Auto-generated method stub
 
 	}
